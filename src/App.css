@@ -1,38 +1,50 @@
+/* 
+  Lato font: 
+  300: Regular
+  400: SemiBold
+  700: Bold
+*/
+
 .App {
-  text-align: center;
+  --main-dark: #3C394C;
+  --light-green: #CFDDDA;
+  --light-blue: #ECF2FC;
+  --light-purple: #F3F1FE;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overlay {
+  background: #000;
+  height: 100vh;
+  position: fixed;
+  z-index: 95;
+  width: 100vw;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.1s ease-in;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.overlay.open {
+  visibility: visible;
+  opacity: 0.4;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+/* .App.open .main {
+  margin: 0 0 0 256px;
 }
 
-.App-link {
-  color: #61dafb;
+.App.open .TopSocials {
+  margin-left: 256px;
+} */
+
+.App h1 {
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+  transition: 0.2s all ease-in;
+  margin: 10vh 10vw;
+  position: relative;
 }

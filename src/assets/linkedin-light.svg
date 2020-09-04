@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>linkedin-light</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="exports" transform="translate(-435.000000, -45.000000)" fill="#86A1CE">
+            <g id="linkedin-light" transform="translate(435.000000, 45.000000)">
+                <rect id="Rectangle" x="0" y="10" width="7" height="22"></rect>
+                <path d="M26.648,10.258 C26.572,10.234 26.5,10.208 26.42,10.186 C26.324,10.164 26.228,10.146 26.13,10.13 C25.75,10.054 25.334,10 24.846,10 C20.674,10 18.028,13.034 17.156,14.206 L17.156,10 L10,10 L10,32 L17.156,32 L17.156,20 C17.156,20 22.564,12.468 24.846,18 C24.846,22.938 24.846,32 24.846,32 L32,32 L32,17.154 C32,13.83 29.722,11.06 26.648,10.258 Z" id="Path"></path>
+                <circle id="Oval" cx="3.5" cy="3.5" r="3.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

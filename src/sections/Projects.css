@@ -1,0 +1,124 @@
+.Projects {
+    margin: 40px 0 0 4vw;
+}
+
+.Projects .title {
+    display: inline-block;
+}
+
+.Projects .cards {
+    margin: 20px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Projects .col {
+    display: flex;
+    margin-top: 2%;
+    height: 354px;
+    margin-left: 5px;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ProjectCard {
+    width: 349px;
+    height: 354px;
+    border-radius: 21px;
+    position: relative;
+    margin: 20px;
+    box-shadow: 0 14px 24px 2px rgba(0,0,0,0.12);
+}
+
+
+
+.ProjectCard img {
+    height: 354px;
+    width: 349px;
+    border-radius: 21px;
+    object-fit: cover;
+}
+
+
+.card-overlay {
+    background-color: #ecf2fc;
+    /* padding: 29px 37px; */
+    width: 349px;
+    height: 354px;
+    position: absolute;
+    border-radius: 21px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ProjectCard .card-overlay:hover {
+    opacity: 1;
+}
+.card-overlay div {
+    margin-top: 27px;
+}
+
+.card-overlay p {
+    margin-bottom: 27px;
+}
+
+.card-overlay div, .card-overlay .link {
+    margin-left: 37px
+}
+
+
+.ProjectCard .skills {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.ProjectCard .link {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.ProjectCard h2 {
+    font-size: 30px;
+}
+
+.projects-modal {
+    width: 80vw!important;
+    max-width: 80vw!important;
+}
+
+
+
+.ProjectCard.sm {
+    width: 349px;
+    height: 160px;
+    margin: 0;
+
+}
+
+.ProjectCard.sm img {
+    height: 160px;
+}
+
+.ProjectCard.sm .card-overlay {
+    height: 160px;
+}
+
+.ProjectCard.sm .skills {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.ProjectCard.sm h2 {
+    font-size: 25px;
+    margin: 0;
+}
+
+

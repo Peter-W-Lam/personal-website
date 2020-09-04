@@ -1,0 +1,20 @@
+.TimelineBlock {
+    display: flex;
+    margin: 10px 0 10px 35px;
+}
+
+.TimelineBlock h3, .TimelineBlock p {
+    margin: 0;
+}
+
+.TimelineBlock > div {
+    margin-left: 33px;
+}
+
+
+
+.TimelineBlock .subheading {
+    font-weight: 500;
+    font-size: 19px;
+    font-style: italic;
+}

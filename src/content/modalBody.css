@@ -1,0 +1,23 @@
+.modal-body-content .row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.modal-body-content .row.imgs {
+    justify-content: center;
+}
+
+.modal-body-content img {
+    max-width: 300px;
+    margin: 15px;
+    box-shadow: 0 2px 15px 0px rgba(0,0,0,0.2)
+}
+
+.modal-body-content .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body-content .buttons * {
+    margin: 20px;
+}

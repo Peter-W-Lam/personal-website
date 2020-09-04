@@ -1,0 +1,27 @@
+.TitleIcon {
+    display: flex;
+    align-items: center;
+}
+
+.TitleIcon img {
+    margin: 0 15px;
+    border-radius: 14px;
+}
+
+.grad-cap {
+    background-color: var(--light-green);
+    padding: 16px 12px 19px 14px;
+}
+
+.briefcase {
+    background-color: var(--light-blue);
+    height: 60px;
+    width: 60px;
+    padding: 14px 14px 19px 14px;
+    
+}
+
+.award {
+    padding: 12px 17px;
+    background-color: var(--light-purple);
+}

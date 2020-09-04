@@ -1,0 +1,60 @@
+.Menu {
+    background: var(--main-dark);
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    position: fixed;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    z-index: 100;
+    transition: all 0.2s ease-in-out;
+}
+
+.Menu.open {
+    /* margin-left: -256px; */
+    width: 256px;
+}
+
+.Menu li {
+    list-style: none;
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.Menu ul {
+    padding: 25px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Menu a {
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+
+.Menu.open a {
+    opacity: 1;
+}
+
+.menu-icon {
+    position: absolute;
+    top: 30px; 
+    left: 10px;
+    z-index: 101;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.menu-icon.open {
+    position: fixed;
+    left: 200px;
+    filter: invert(1.0);
+}

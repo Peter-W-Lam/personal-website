@@ -1,0 +1,38 @@
+.TempAboutMe {
+    margin-top: 60px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.TempAboutMe .block {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.TempAboutMe .col {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.TempAboutMe .list {
+    margin-left: 55px;
+}
+
+.TempAboutMe .timeline {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TempAboutMe .title h1 {
+    max-width: 200px;
+}
+
+.TempAboutMe .top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}

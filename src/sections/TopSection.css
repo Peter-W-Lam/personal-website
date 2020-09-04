@@ -1,0 +1,47 @@
+
+.TopSection {
+    display: flex;
+    justify-content: center;
+    margin-top: 14vh;
+    align-items: center;
+  }
+  
+  .TopSection h1 {
+    font-size: 46px;
+    margin: 0;
+  }
+  
+  .TopSection p {
+    padding-top: 18px;
+    margin: 0;
+    color: #b7b7b7;
+    font-size: 16px;
+    max-width: 50%;
+  }
+  
+  .TopSection h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .TopSection img {
+    width: 294px;
+    box-shadow: 12px 12px 14px 0 rgba(0,0,0,0.31);
+  }
+
+  .TopSection .Button {
+      margin-top: 30px;
+  }
+
+  .TopSection .content {
+      width: 60%;
+      margin-left: 5%;
+  }
+
+  .TopSection .photo {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+  }

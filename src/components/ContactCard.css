@@ -1,0 +1,82 @@
+.ContactCard {
+    padding: 25px;
+    border-radius: 16px;
+    height: 268px;
+    width: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ContactCard.email {
+    background-color: #E8EEED;
+}
+
+.ContactCard.email .img-bg {
+    background-color: #CCD7D5;
+    padding: 23px 14px;
+    border-radius: 50%;
+}
+.ContactCard.email h2 {
+    color: #637D79;
+}
+
+.ContactCard .info-block {
+    color: #000;
+    /* width: 90%; */
+    padding: 9px 10px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border-radius: 5px;
+}
+
+.ContactCard a:hover {
+    text-decoration: none;
+}
+
+
+.ContactCard.email .info-block {
+    background-color: #CCD7D5;
+}
+
+.ContactCard.linkedin {
+    background-color: var(--light-blue);
+}
+
+.ContactCard.linkedin .img-bg {
+    background-color: #CAD8EF;
+    padding: 23px 22px 24px 25px;
+    border-radius: 50%;
+}
+
+.ContactCard.linkedin .info-block {
+    background-color: #CAD8EF;
+    padding: 9px 57px;
+}
+
+.ContactCard.linkedin h2 {
+    color: #86A1CE;
+}
+
+.ContactCard.github {
+    background-color: var(--light-purple)
+}
+
+.ContactCard.github img {
+    /* background-color: #D3CFEA; */
+    /* border-radius: 20px; */
+    
+}
+
+.ContactCard.github .info-block {
+    background-color: #D3CFEA;
+    padding: 9px 44px;
+    white-space: nowrap;
+}
+
+.ContactCard.github h2 {
+    color: #8E84C6;
+    
+}

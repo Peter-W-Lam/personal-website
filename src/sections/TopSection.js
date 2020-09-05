@@ -10,10 +10,10 @@ function TopSection() {
                 <h1>Peter Lam</h1>
                 <h4>Front-End Developer</h4>
                 <p>I'm a recent graduate from Tufts University, specializing in UI/UX design and front-end development. Let's chat!</p>
-                <Button 
-                    name="Get In Touch!"
-                    to="#contact"
-                />
+                <a href="#contact">
+                    <Button name="Get In Touch!" />
+                </a>
+                
             </div>
             <div className="photo">
                 <img src={Portrait} alt="Peter Lam" className="portrait" />

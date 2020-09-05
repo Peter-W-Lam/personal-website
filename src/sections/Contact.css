@@ -1,6 +1,11 @@
+.Contact {
+    margin-top: 65px;
+}
+
 .Contact .cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .Contact .ContactCard {
@@ -9,4 +14,5 @@
 
 .Contact .title h1{
     max-width: 210px;
+    margin: 20px 0;
 }

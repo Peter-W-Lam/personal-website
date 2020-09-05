@@ -16,21 +16,21 @@ export default function Contact() {
                     img={Email}
                     className="email"
                     title="Email"
-                    to="#email"
-                    tag="PeterWL76@gmail.com"
+                    to="mailto:peterlam@alumni.tufts.edu"
+                    tag="peterlam@alumni.tufts.edu"
             /> 
             <ContactCard 
                     img={LinkedIn}
                     className="linkedin"
                     title="LinkedIn"
-                    to="#linkedin"
+                    to="https://www.linkedin.com/in/peterwlam/"
                     tag="peterwlam"
             /> 
             <ContactCard 
                     img={Github}
                     className="github"
                     title="Github"
-                    to="#github"
+                    to="https://github.com/Peter-W-Lam"
                     tag="Peter-Lam-22"
             /> 
             </div>

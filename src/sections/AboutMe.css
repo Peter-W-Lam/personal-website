@@ -26,12 +26,12 @@
 }
 
 
-.timeline {
+/* .timeline {
     margin-top: 80px;
     display: flex;
-}
+} */
 
-.grad-cap {
+/* .grad-cap {
     background-color: var(--light-green);
     padding: 16px 12px 19px 14px;
     border-radius: 14px;
@@ -43,7 +43,7 @@
     width: 60px;
     padding: 14px 14px 19px 14px;
     border-radius: 14px;
-}
+} */
 
 .timeline h3 {
     font-size: 28px;
@@ -55,9 +55,9 @@
 
 }
 
-.timeline > div {
+/* .timeline > div {
     margin: 0 83px;
-}
+} */
 
 .timeline-block {
     display: flex;

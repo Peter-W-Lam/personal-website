@@ -23,6 +23,7 @@
 .TempAboutMe .timeline {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .TempAboutMe .title h1 {
@@ -36,3 +37,23 @@
     align-items: flex-end;
     
 }
+
+@media only screen and (max-width: 1000px) {
+    .timeline .experience-block {
+        margin-left: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .TempAboutMe .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TempAboutMe .top .Button {
+        margin: 25px;
+    }
+}
+

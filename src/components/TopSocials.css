@@ -21,5 +21,7 @@
 @media only screen and (max-width: 500px) {
     .TopSocials {
         justify-content: flex-end;
+        margin-right: 20px;
+        margin-top: 20px;
     }
 }

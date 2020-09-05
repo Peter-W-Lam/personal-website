@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import Card from '../components/Card'
-import mediModal from '../content/modalBody'
+import {mediModal, PhoneHomeModal, DocSongModal, DoomClock} from '../content/modalBody'
 
 
 function Projects() {
@@ -29,6 +29,7 @@ function Projects() {
                         alt="Pattern"
                         project="Documentary Songwriters"
                         skills="React.js, Leadership"
+                        modalBody={DocSongModal}
                     />
                     <div className="col">
                         <Card 
@@ -37,13 +38,15 @@ function Projects() {
                             project="Phone Home"
                             skills="C#, Game Design"
                             size="sm"
+                            modalBody={PhoneHomeModal}
                         />
                         <Card 
-                            img={require('../assets/sample-1.jpg')}
+                            img={require('../assets/doom-clock.png')}
                             alt="Pattern"
                             project="Doom Clock"
                             skills="UI Design, React.js"
                             size="sm"
+                            modalBody={DoomClock}
                         />
                     </div>
                 </div>

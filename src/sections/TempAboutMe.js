@@ -31,7 +31,7 @@ export default function TempAboutMe() {
                                 addedInfo="2016 - 2020"
                             />
                     </div>
-                    <div>
+                    <div className="block">
                         <TitleIcon 
                                 img={Award}
                                 alt="Award"
@@ -47,7 +47,7 @@ export default function TempAboutMe() {
                     </div>
                 </div>
                 
-                <div>
+                <div className="block experience-block">
                     <TitleIcon 
                             img={Briefcase}
                             alt="Briefcase"

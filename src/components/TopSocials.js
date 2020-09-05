@@ -7,10 +7,10 @@ function TopSocials() {
     return (
         <div className="TopSocials" id="top">
             <div className='icons'>
-                <a href="#linkedin">
+                <a href="https://www.linkedin.com/in/peterwlam/">
                     <LinkedIn />
                 </a>
-                <a href="#github">
+                <a href="https://github.com/Peter-W-Lam">
                    <Github /> 
                 </a>
                 

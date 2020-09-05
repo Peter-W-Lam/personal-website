@@ -31,3 +31,16 @@
     border: none;
 }
 
+@media only screen and (max-width: 600px) {
+    .BottomMenu ul {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 12px;
+        padding: 0;
+    }
+
+    .BottomMenu li {
+        margin: 4px 0;
+    }
+}
+

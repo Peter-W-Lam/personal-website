@@ -2,7 +2,7 @@
     padding: 25px;
     border-radius: 16px;
     height: 268px;
-    width: 216px;
+    width: 245px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +53,7 @@
 
 .ContactCard.linkedin .info-block {
     background-color: #CAD8EF;
-    padding: 9px 57px;
+    padding: 9px 67px;
 }
 
 .ContactCard.linkedin h2 {
@@ -72,7 +72,7 @@
 
 .ContactCard.github .info-block {
     background-color: #D3CFEA;
-    padding: 9px 44px;
+    padding: 9px 56px;
     white-space: nowrap;
 }
 

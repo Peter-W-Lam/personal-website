@@ -122,3 +122,33 @@
 }
 
 
+@media only screen and (max-width: 500px) {
+    .ProjectCard  {
+        width: 300px;
+        height: 354px;
+    }
+
+    .ProjectCard.sm {
+        width: 300px;
+    }
+
+    .ProjectCard.sm img {
+        width: 300px;
+    }
+
+    
+
+    .ProjectCard img {
+        width: 300px;
+        height: 354px;
+    }
+
+    .card-overlay {
+        width: 300px;
+        height: 354px;
+    }
+
+    .card-overlay div, .card-overlay .link {
+        margin-left: 17px
+    }
+}

@@ -25,3 +25,9 @@
     padding: 12px 17px;
     background-color: var(--light-purple);
 }
+
+@media only screen and (max-width: 450px) {
+    .TitleIcon h1 {
+        font-size: 30px;
+    }
+}

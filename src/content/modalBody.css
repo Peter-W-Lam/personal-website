@@ -10,6 +10,7 @@
 .modal-body-content img {
     max-width: 300px;
     margin: 15px;
+    align-self: flex-start;
     box-shadow: 0 2px 15px 0px rgba(0,0,0,0.2)
 }
 

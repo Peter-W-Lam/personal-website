@@ -1,5 +1,5 @@
 .Projects {
-    margin: 40px 0 0 4vw;
+    margin: 40px 0 0 0;
 }
 
 .Projects .title {
@@ -7,7 +7,7 @@
 }
 
 .Projects .cards {
-    margin: 20px 0 0;
+    margin: 20px 0 0 5vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -123,6 +123,11 @@
 
 
 @media only screen and (max-width: 500px) {
+    .Projects .cards {
+
+        /* border: 1px solid red; */
+    }
+    
     .ProjectCard  {
         width: 300px;
         height: 354px;

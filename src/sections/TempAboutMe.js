@@ -9,12 +9,9 @@ import Button from '../components/Button'
 export default function TempAboutMe() {
     return (
         <div className="TempAboutMe" id="aboutme">
-            <div className="top">
-                <span className="title">
-                    <h1>About Me</h1>
-                </span>
-                <Button name="Download Resume" />
-            </div>
+            <span className="title">
+                <h1>About Me</h1>
+            </span>
             <div className="timeline">
                 <div className="col">
                     <div className="block">

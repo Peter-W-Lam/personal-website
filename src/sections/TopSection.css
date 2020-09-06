@@ -5,6 +5,15 @@
     margin-top: 14vh;
     align-items: center;
   }
+
+  .TopSection .buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .TopSection .buttons .Button {
+    margin-right: 15px;
+  }
   
   .TopSection h1 {
     font-size: 46px;
@@ -29,6 +38,7 @@
   .TopSection img {
     width: 294px;
     height: 294px;
+    border-radius: 8px;
     box-shadow: 12px 12px 14px 0 rgba(0,0,0,0.31);
   }
 
@@ -50,6 +60,7 @@
   @media only screen and (max-width: 700px) {
     .TopSection img {
       width: 230px;
+      height: 230px;
     }
   }
 
@@ -74,10 +85,15 @@
 
   .TopSection p {
     max-width: 100%;
-    margin: 0;
+    margin: 0 0 10px 0;
+  }
+
+  .TopSection .buttons {
+    justify-content: center;
   }
 
   .TopSection .Button {
-    margin-bottom: 25px;
+    margin: 5px 0;
+    /* margin-bottom: 25px; */
   }
 }

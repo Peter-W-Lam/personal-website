@@ -6,7 +6,7 @@
 
 .TopSocials svg {
     margin: 10px;
-    width: 100%;
+    /* width: 100%; */
     transition: 0.1s ease-in;
 }
 

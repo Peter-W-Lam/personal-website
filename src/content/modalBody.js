@@ -18,8 +18,12 @@ export const mediModal = () => {
             </div>
             <p>A working demo of the site can be found deployed on Heroku; any Gmail account may be used to verify one's "healthcare" email by selecting the "Gmail (Testing Route)" under the healthcare system option. Please note that registration is required to view this demo. </p>
             <div className="buttons">
-                <Button name="Demo" />
-                <Button name="Github"/>
+                <a href="https://medi-example.herokuapp.com/">
+                    <Button name="Demo" />
+                </a>
+                <a href="https://github.com/Peter-W-Lam/medi-example">
+                    <Button name="Github"/>
+                </a>
             </div>
         </div>
     )

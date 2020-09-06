@@ -48,3 +48,9 @@
   margin: 10vh 10vw;
   position: relative;
 }
+
+@media only screen and (max-width: 500px) {
+  .main {
+    margin: 10vh 5vw;
+  }
+}

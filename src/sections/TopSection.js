@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../components/Button'
 import Portrait from '../assets/portrait.png'
+import Resume from '../assets/resume-09.pdf'
 import './TopSection.css'
 
 function TopSection() {
@@ -14,7 +15,7 @@ function TopSection() {
                     <a href="#contact">
                         <Button name="Get In Touch!" />
                     </a>
-                    <a href="">
+                    <a href={Resume} target="_blank">
                         <Button name="Download Resume" />
                     </a>
                 </div>
